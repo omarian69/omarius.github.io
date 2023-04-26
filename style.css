@@ -1,0 +1,395 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #FFFFFF;
+  font-family: 'Lora', serif;
+}
+
+.wrapper {
+  position: relative;
+  width: 390px;
+  height: 2506px;
+  background: #FFFFFF;
+}
+
+.ukraine {
+  position: absolute;
+  width: 390px;
+  height: 48px;
+  left: 0px;
+  top: 0px;
+  
+  background: url(ukraine.png);
+}
+
+.text {
+  position: absolute;
+  width: 342px;
+  height: 192px;
+  left: 24px;
+  top: 148px;
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #1F2223;
+}
+
+.title {
+  position: absolute;
+  width: 140px;
+  height: 72px;
+  left: 125px;
+  top: 368px;
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  /* or 100% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.5px;
+  background: linear-gradient(180deg, #AC53AB 0%, #D46975 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.title h1 {
+  width: 140px;
+  height: 72px;
+}
+
+.delivery {
+  position: absolute;
+  width: 75px;
+  height: 17px;
+  left: 85px;
+  top: 527px;
+  
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 17px;
+  /* identical to box height, or 85% */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.5px;
+  
+  background: linear-gradient(180deg, #AC53AB 0%, #D46975 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;  
+}
+
+.delivery h1 {
+  width: 75px;
+  height: 17px;
+  left: 85px;
+  top: 0px;
+}
+
+.finance {
+  position: absolute;
+  width: 71px;
+  height: 17px;
+  left: 24px;
+  top: 1168px;
+  
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 17px;
+  /* identical to box height, or 85% */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.5px;
+  
+  background: linear-gradient(180deg, #AC53AB 0%, #D46975 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.onlineshopping {
+  position: absolute;
+  width: 150px;
+  height: 17px;
+  left: 24px;
+  top: 1768px;
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 17px;
+  /* identical to box height, or 85% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.5px;
+  background: linear-gradient(180deg, #AC53AB 0%, #D46975 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.writeme {
+  position: absolute;
+  width: 342px;
+  height: 17px;
+  left: 32px;
+  top: 2317px;
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+  /* identical to box height, or 106% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #000000;
+}
+
+.peace {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  left: 334px;
+  top: -7px;
+
+  background: url(peace.png);
+}
+
+.peace img {
+  width: 69px;
+  height: 69px;
+}
+
+.omer {
+  position: absolute;
+  width: 154px;
+  height: 61px;
+  left: 118px;
+  top: 68px;
+  background: url(omer.png);
+}
+
+.omer img {
+  width: 154px;
+  height: 61px;
+}
+
+.arrow1 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 165px;
+  top: 468px;
+
+  background: url(arrow1.png);
+}
+
+.arrow1 img {
+  width: 60px;
+  height: 60px;
+}
+
+.deliveryphone {
+  position: absolute;
+  width: 511px;
+  height: 485px;
+  left: -61px;
+  top: 581px;
+
+  background: url(deliveryphone.png);
+}
+
+.deliveryphone img {
+  width: 511px;
+  height: 485px;
+}
+
+.arrow2 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 165px;
+  top: 1088px;
+
+  background: url(arrow2.png);
+}
+
+.arrow2 img {
+  width: 60px;
+  height: 60px;
+}
+
+.financephone {
+  position: absolute;
+  width: 511px;
+  height: 455px;
+  left: -61px;
+  top: 1205px;
+
+  background: url(financephone.png);
+}
+
+.financephone img {
+  width: 511px;
+  height: 455px;
+}
+
+.arrow3 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 165px;
+  top: 1688px;
+
+  background: url(arrow3.png);
+}
+  
+.arrow3 img {
+  width: 60px;
+  height: 60px;
+}
+
+.shoppingphone {
+  position: absolute;
+  width: 511px;
+  height: 476px;
+  left: -61px;
+  top: 1805px;
+
+  background: url(shoppingphone.png);
+}
+
+.shoppingphone img {
+  width: 511px;
+  height: 476px;  
+}
+
+.contactme {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  position: absolute;
+  width: 117px;
+  height: 30px;
+  left: 136px;
+  top: 2369px;
+
+  background: linear-gradient(180deg, #AE54A8 0%, #D46975 100%);
+  border-radius: 15px;
+
+  background: url(contactme.png);
+}
+
+.contactme img {
+  width: 117px;
+  height: 30px;  
+}
+
+.instagram-btn {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 67px;
+  top: 2426px;
+
+  background: url(instagram.png);
+}
+
+.instagram-btn img {
+  width: 48px;
+  height: 48px;
+}
+
+.twitter-btn {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 171px;
+  top: 2426px;
+
+  background: url(twitter.png);
+}
+
+.twitter-btn img {
+  width: 48px;
+  height: 48px;
+}
+
+.linkedin-btn {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 275px;
+  top: 2426px;
+
+  background: url(linkedin.png);
+}
+
+.linkedin-btn img {
+  width: 48px;
+  height: 48px;
+}
+
+.writeme {
+  position: absolute;
+  width: 342px;
+  height: 17px;
+  left: 32px;
+  top: 2317px;
+
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+  /* identical to box height, or 106% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.5px;
+
+  color: #000000;
+}
